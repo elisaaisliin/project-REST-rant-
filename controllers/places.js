@@ -5,7 +5,8 @@ router.get('/new', (req, res) => {
 })
 
 // GET /places
-router.get('/', (req, res) => {
+router.post('/', (req, res) => {
+  console.log(req.body)
     let places = [{
         name: 'H-Thai-ML',
         city: 'Seattle',
