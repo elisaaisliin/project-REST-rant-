@@ -2,9 +2,12 @@ h1 {
     text-align: center;
     color: lightblue;
   }
-  div {
+h2 {
+  color: lightblue;
+}
+  /* div {
     text-align: center;
-  }
+  } */
 button {
     background-color: lavenderblush;
     display: block;
