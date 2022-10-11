@@ -7,6 +7,11 @@ function show(data) {
             No Comments yet!
         </h3>
     )
+    let rating = (
+      <h3 className="inactive">
+        Not yet rated
+      </h3>
+    )
     if (data.place.comments.length) {
         comments = data.place.comments.map(c => {
             return (
@@ -36,6 +41,7 @@ function show(data) {
                         <h2>
                             Rating
                         </h2>
+                        {rating}
                         <br />
                         <h2>
                             Description
