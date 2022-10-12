@@ -28,7 +28,7 @@ function Def (html) {
           {html.children}
           <footer class="footer mt-auto py-3 bg-">
             <div class="container">
-              <span class="text-muted">elisa de casas</span>
+              <span class="text-muted">made by elisa de casas</span>
             </div>
           </footer>
         </body>
